@@ -6,4 +6,9 @@
 <h2>Index</h2>
 
 <app-root></app-root>
+
 @Scripts.Render("~/bundles/angularscripts")
+
+<script>
+    System.import('app').catch(function (err) { console.error(err); });
+</script>
